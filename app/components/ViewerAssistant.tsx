@@ -1544,7 +1544,7 @@ export default function ViewerAssistant({ sendChat = defaultSendChat }: { sendCh
                         <p className="text-sm font-bold">{s3Chosen}</p>
                       </div>
                       <Button variant="ghost" size="sm" onClick={() => setS3Chosen(null)} className="text-xs hover:bg-primary/20">
-                        別の具象物を選ぶ
+                        戻る
                       </Button>
                     </div>
 
